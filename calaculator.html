@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="calculator.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+<div id="scal" >
+<input type="text" id="bda" readonly>
+<div id="but-con">
+
+<button id="clear" onclick="finalDisplay='';
+ document.querySelector('#bda').
+    value=finalDisplay;">C</button>
+
+<button onclick="finalDisplay=finalDisplay+'1';
+ document.querySelector('#bda').
+    value=finalDisplay;">1</button>
+
+<button onclick="finalDisplay=finalDisplay+'2';
+ document.querySelector('#bda').
+    value=finalDisplay;">2</button>
+
+<button onclick="finalDisplay=finalDisplay+'+';
+ document.querySelector('#bda').
+    value=finalDisplay;">+</button>
+<button onclick="finalDisplay=finalDisplay+'3';
+ document.querySelector('#bda').
+    value=finalDisplay;">3</button>
+<button onclick="finalDisplay=finalDisplay+'4';
+ document.querySelector('#bda').
+    value=finalDisplay;">4</button>
+
+<button onclick="finalDisplay=finalDisplay+'-';
+ document.querySelector('#bda').
+    value=finalDisplay;">-</button>
+
+<button onclick="finalDisplay=finalDisplay+'5';
+ document.querySelector('#bda').
+    value=finalDisplay;">5</button>
+
+<button onclick="finalDisplay=finalDisplay+'6';
+ document.querySelector('#bda').
+    value=finalDisplay;">6</button>
+
+
+<button onclick="finalDisplay=finalDisplay+'7';
+ document.querySelector('#bda').
+    value=finalDisplay;">7</button>
+
+<button onclick="finalDisplay=finalDisplay+'8';
+ document.querySelector('#bda').
+    value=finalDisplay;">8</button>
+
+<button onclick="finalDisplay=finalDisplay+'*';
+ document.querySelector('#bda').
+    value=finalDisplay;">*</button>
+
+<button id="slace" onclick="finalDisplay=finalDisplay+'/';
+ document.querySelector('#bda').
+    value=finalDisplay;" >/</button>
+
+<button onclick="finalDisplay=finalDisplay+'9';
+ document.querySelector('#bda').
+    value=finalDisplay;">9</button>
+
+    <button onclick="finalDisplay=finalDisplay+'.';
+ document.querySelector('#bda').
+    value=finalDisplay;">.</button>
+
+    <button id="brabar" onclick="finalDisplay= eval(finalDisplay);document.querySelector('#bda').value=finalDisplay">=</button>
+        
+<button id="zero" onclick="finalDisplay=finalDisplay+'0';
+ document.querySelector('#bda').
+    value=finalDisplay;">0</button>
+
+</div>
+</div>
+<script>
+    let finalDisplay='';
+    document.querySelector('#bda').
+    value=finalDisplay;
+
+</script>
+
+
+</body>
+</html>

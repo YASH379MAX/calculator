@@ -1,0 +1,50 @@
+#scal{border: 2px solid #b5acac99;
+height: 582px;
+width: 400px;
+border-radius: 5px;background-color: rgb(242, 242, 249);
+box-shadow: 10px 5px 5px rgb(24, 1, 49);
+border-radius: 8px;
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background:white;
+}
+#bda{height:75px;
+width: 88%;
+margin: 7px;
+margin-left: 20px;
+margin-top: 20px;
+border-radius: 10px;
+font-weight: 700;
+font-size: 35px;background-color: rgb(23, 148, 225);color: white;
+border-color:white;
+}
+
+button{height: 75px;
+width: 75px;
+margin: 8px;
+font-weight: 600;background-color: black; border-radius: 50px;color: white;
+font-size:xx-large;
+}
+
+
+#but-con{display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+
+#brabar{height: 150px;background-color: rgb(28, 169, 215);}
+
+#zero{width: 150px;
+margin-top:-72px;}
+
+
+#slace{height: 150px;}
+
+#clear{background-color:rgb(28, 169, 215) ;}
